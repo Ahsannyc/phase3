@@ -16,6 +16,10 @@ out/
 .env*.backup
 .env*.sample
 .env*.template
+# Note: .env.template files ARE committed for documentation (see gitignore rule below)
+!.env.template
+!backend/.env.template
+!frontend/.env.template
 
 # OS generated files
 .DS_Store

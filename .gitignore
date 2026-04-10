@@ -11,7 +11,8 @@ build/
 out/
 
 # Environment variables
-.env*.local
+.env
+.env.local
 .env*.backup
 .env*.sample
 .env*.template
